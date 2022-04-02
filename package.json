@@ -1,0 +1,23 @@
+{
+  "name": "tme",
+  "version": "1.0.0",
+  "description": "A simple Node JS test framework built as part of the The Modern Javascript Bootcamp Course (2021)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanverdugo/tme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "tme": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/alanverdugo/tme/issues"
+  },
+  "homepage": "https://github.com/alanverdugo/tme#readme"
+}
