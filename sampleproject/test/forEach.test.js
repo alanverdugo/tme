@@ -1,6 +1,11 @@
 const assert = require('assert');
 const { forEach } = require('../index');
 
+let numbers;
+beforeEach(() => {
+    numbers = [1,2,3];
+});
+
 it('should sum an array', () => {
     const numbers = [1,2,3];
     let total = 0;
@@ -8,5 +13,9 @@ it('should sum an array', () => {
         total+=value;
     });
 
-    assert.strictEqual(total, 6);
+    assert.strictEqual(total, 7);
+});
+
+it('beforeEach is ran each time', () => {
+    assert.strictEqual(numbers.length, 3);
 });
